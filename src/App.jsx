@@ -1,9 +1,10 @@
 import React from 'react'
+import FirstSection from './firdavshome/sections/SectionOne'
 
 const App = () => {
   return (
     <div>
-      <h1>Hello My Team!</h1>
+  
     </div>
   )
 }
