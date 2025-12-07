@@ -5,7 +5,7 @@ import { FaArrowRight } from 'react-icons/fa6'
 const SectionOne = () => {
   return (
     <div className="bg-gray-50 py-16">
-      <div className="max-w-[1240px] mx-auto px-4 text-center">
+      <div className="max-w-[1240] mx-auto px-4 text-center">
         
         <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
           My number one choice for pet supplies

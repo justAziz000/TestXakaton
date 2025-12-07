@@ -1,16 +1,18 @@
 const products = {
     cats: [
-      { id: 1, name: "Whiskas Cat Food", price: 25, category: "Food", image: "cat_food.jpg" },
-      { id: 2, name: "Cat Scratching Post", price: 45, category: "Accessories", image: "scratching_post.jpg" },
-      { id: 3, name: "Cat Litter", price: 15, category: "Hygiene", image: "cat_litter.jpg" },
-      { id: 4, name: "Cat Toy Ball", price: 10, category: "Toys", image: "cat_toy_ball.jpg" },
-      { id: 5, name: "Cat Bed", price: 50, category: "Furniture", image: "cat_bed.jpg" },
-      { id: 6, name: "Cat Collar", price: 12, category: "Accessories", image: "cat_collar.jpg" },
-      { id: 7, name: "Cat Treats", price: 8, category: "Food", image: "cat_treats.jpg" },
-      { id: 8, name: "Cat Shampoo", price: 18, category: "Hygiene", image: "cat_shampoo.jpg" },
-      { id: 9, name: "Cat Carrier Bag", price: 60, category: "Accessories", image: "cat_carrier.jpg" },
-      { id: 10, name: "Interactive Laser Toy", price: 20, category: "Toys", image: "cat_laser_toy.jpg" },
-    ],
+        { id: 1, name: "Whiskas Cat Food", price: 25, category: "Food", image: "https://images.unsplash.com/photo-1601758173925-7b5b5e6b564b?auto=format&fit=crop&w=300&q=80" },
+        { id: 2, name: "Cat Scratching Post", price: 45, category: "Accessories", image: "https://images.unsplash.com/photo-1592194996308-7b6f19f1a4ed?auto=format&fit=crop&w=300&q=80" },
+        { id: 3, name: "Cat Litter", price: 15, category: "Hygiene", image: "https://images.unsplash.com/photo-1603312673131-0e462b1d0e46?auto=format&fit=crop&w=300&q=80" },
+        { id: 4, name: "Cat Toy Ball", price: 10, category: "Toys", image: "https://images.unsplash.com/photo-1603398938378-d8ec50f96d69?auto=format&fit=crop&w=300&q=80" },
+        { id: 5, name: "Cat Bed", price: 50, category: "Furniture", image: "https://images.unsplash.com/photo-1602810318626-2d0f5f9e212c?auto=format&fit=crop&w=300&q=80" },
+        { id: 6, name: "Cat Collar", price: 12, category: "Accessories", image: "https://images.unsplash.com/photo-1613844142933-5bbca8aa0d42?auto=format&fit=crop&w=300&q=80" },
+        { id: 7, name: "Cat Treats", price: 8, category: "Food", image: "https://images.unsplash.com/photo-1608897013036-c5b4a73b1a2e?auto=format&fit=crop&w=300&q=80" },
+        { id: 8, name: "Cat Shampoo", price: 18, category: "Hygiene", image: "https://images.unsplash.com/photo-1592194996308-7b6f19f1a4ed?auto=format&fit=crop&w=300&q=80" },
+        { id: 9, name: "Cat Carrier Bag", price: 60, category: "Accessories", image: "https://images.unsplash.com/photo-1603786357428-891c4f7d2b0e?auto=format&fit=crop&w=300&q=80" },
+        { id: 10, name: "Interactive Laser Toy", price: 20, category: "Toys", image: "https://images.unsplash.com/photo-1592194996308-7b6f19f1a4ed?auto=format&fit=crop&w=300&q=80" },
+      ],
+      
+      
     
     dogs: [
       { id: 1, name: "Dog Food - Beef", price: 30, category: "Food", image: "dog_food_beef.jpg" },

@@ -1,21 +1,23 @@
-// main.jsx  ← faqat shu ko‘rinishda bo‘lsin!
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./index.css";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from "../src/firdavshome/Home.jsx";
-import ZooRepeat from "../src/firdavshome/sections/ZooRepeat.jsx";
-// SectionOne ni bu yerga import qilmang! U Home ichida chaqiriladi
+// To‘g‘ri yo‘llar — sizning joriy tuzilmangizga moslashtirdim
+import Home from '../src/firdavshome/Home.jsx'
+import CatShop from '../src/firdavshome/sections/CatShop.jsx'
+import ZooRepeat from './firdavshome/sections/ZooRepeat.jsx'
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/cats" element={<CatShop />} />
         <Route path="/repeat" element={<ZooRepeat />} />
-        <Route path="*" element={<Home />} />
+        {/* Keyinchalik qo‘shasiz: /dogs, /fish va h.k. */}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
-);
+)

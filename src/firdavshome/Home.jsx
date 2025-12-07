@@ -1,16 +1,14 @@
-// src/firdavshome/sections/Home.jsx
 import React from 'react'
-import SectionOne from '../firdavshome/sections/SectionOne'   // ← To‘g‘ri yo‘l (shu papkada)
+import SectionOne from './sections/SectionOne'
 import ShopSection from './sections/ShopSection'
 
 const Home = () => {
   return (
     <div>
       <SectionOne />
-      <ShopSection/>
-      {/* Keyinchalik boshqa sectionlar qo‘shiladi */}
+      <ShopSection />
     </div>
   )
 }
 
-export default Home
+export default Home 
